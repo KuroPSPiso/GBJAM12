@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "770e184d-5ce5-4938-b6e6-5bb511f52500",
+  "name": "classroom-bg",
+  "symbol": "bg_pixil_frame_0_18_",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "classroom-bg.png",
+  "tileColors": ""
+}

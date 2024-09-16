@@ -1,0 +1,63 @@
+{
+  "_resourceType": "scene",
+  "id": "e7f0082f-0a98-4d9c-94c9-89bd729e3ce1",
+  "_index": 0,
+  "name": "Classroom-template",
+  "backgroundId": "770e184d-5ce5-4938-b6e6-5bb511f52500",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_1",
+  "x": 424,
+  "y": 272,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "6462c38f-395a-483e-bfcc-0b2573cf186d"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1,
+        "frames": 30
+      },
+      "id": "55f0833d-694b-4ba0-b709-bf24e8ed9429"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " The quick brown\n fox jumps over\n the lazy dog"
+        ],
+        "__section": "text",
+        "avatarId": "935bdf0a-f04c-422c-b744-26805c80ebed",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "9d2b4916-ec02-4a2b-81af-25439c41e1a7"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
