@@ -1,9 +1,9 @@
 {
   "_resourceType": "scene",
-  "id": "e7f0082f-0a98-4d9c-94c9-89bd729e3ce1",
-  "_index": 0,
-  "name": "Classroom-template",
-  "backgroundId": "770e184d-5ce5-4938-b6e6-5bb511f52500",
+  "id": "160fa399-f0d7-4127-a6cf-65b4cd5ae21d",
+  "_index": 1,
+  "name": "School-template",
+  "backgroundId": "245d8638-2adb-4a63-9855-d0f3c9c5657b",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -12,8 +12,8 @@
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_1",
-  "x": 240,
+  "symbol": "scene_2",
+  "x": 456,
   "y": 264,
   "script": [
     {
@@ -21,7 +21,7 @@
       "args": {
         "actorId": "$self$"
       },
-      "id": "6462c38f-395a-483e-bfcc-0b2573cf186d"
+      "id": "16086dee-ecfe-4be3-8f78-0ba5fd5b65ec"
     },
     {
       "command": "EVENT_WAIT",
@@ -29,7 +29,7 @@
         "time": 1,
         "frames": 30
       },
-      "id": "55f0833d-694b-4ba0-b709-bf24e8ed9429"
+      "id": "bcd17a8b-a4ee-4492-a23c-84840a6dbfef"
     },
     {
       "command": "EVENT_TEXT",
@@ -54,7 +54,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "9d2b4916-ec02-4a2b-81af-25439c41e1a7"
+      "id": "655306cf-b5aa-4a06-9e89-fe0810fc8167"
     }
   ],
   "playerHit1Script": [],
