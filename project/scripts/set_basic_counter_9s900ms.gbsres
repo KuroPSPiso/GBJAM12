@@ -1,0 +1,54 @@
+{
+  "_resourceType": "script",
+  "id": "638894be-9afc-4b68-9248-01436f5627c3",
+  "name": "set basic counter 9s+900ms",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "S var",
+      "passByReference": false
+    },
+    "V1": {
+      "id": "V1",
+      "name": "MS var",
+      "passByReference": false
+    }
+  },
+  "actors": {},
+  "symbol": "script_3",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "3",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "7dc41d74-0dec-4855-b098-374279e70c63"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "1",
+        "value": {
+          "type": "variable",
+          "value": "V0"
+        }
+      },
+      "id": "67f6906a-766a-4d32-a3e8-b9f3bfd8bedc"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "2",
+        "value": {
+          "type": "variable",
+          "value": "V1"
+        }
+      },
+      "id": "a69ebed9-9797-4e6d-9125-1643ed1eca78"
+    }
+  ]
+}

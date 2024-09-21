@@ -1,0 +1,172 @@
+{
+  "_resourceType": "scene",
+  "id": "af6df550-a328-46d1-bac4-60c47f984d87",
+  "_index": 7,
+  "name": "bed-2",
+  "backgroundId": "5afeaa93-a69d-4b86-9227-e42a5efd165c",
+  "tilesetId": "",
+  "width": 20,
+  "height": 24,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_8",
+  "x": 768,
+  "y": 296,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "3458be1c-45b8-465e-90ab-b743baab793c"
+    },
+    {
+      "command": "EVENT_CAMERA_MOVE_TO",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 6
+        },
+        "speed": 0.5,
+        "__collapse": false
+      },
+      "id": "1b8dc576-0f4d-4ebb-b1d2-6788234769d6"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1,
+        "frames": 30
+      },
+      "id": "88ad86c5-dec7-4aab-85e0-baf0d7619cf6"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " hehe...?!?"
+        ],
+        "__section": "text",
+        "avatarId": "935bdf0a-f04c-422c-b744-26805c80ebed",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "53dd9b00-faae-45b5-9a86-789f1cbaa9a3"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " I'm so going\n to be late",
+          " Will I even \n make it?"
+        ],
+        "__section": "text",
+        "avatarId": "13a52618-6c22-4441-8553-7f3c18eca179",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "2f6257e8-53ab-441f-bab7-71b2658a4671"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " I left \n breakfast on\n the tabl..."
+        ],
+        "__section": "text",
+        "avatarId": "8351d954-fd17-47ca-b836-a6a20fb23a1b",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "346ec99c-8189-4093-ad20-d641bb487fed"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " Thanks but,\n No time...\n I GOTTA GO!"
+        ],
+        "__section": "text",
+        "avatarId": "935bdf0a-f04c-422c-b744-26805c80ebed",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "d2f19f22-45c4-4bf3-8c4c-38402749007f"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "74aff934-a04d-484d-ac75-858afc2995b7",
+        "x": {
+          "type": "number",
+          "value": 1
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "5f02b944-2702-4bc8-9b45-eaa7c5ceaedb"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

@@ -1,0 +1,118 @@
+{
+  "_resourceType": "scene",
+  "id": "3a584051-b4e8-4e4d-892a-9b8ff7845a43",
+  "_index": 11,
+  "name": "Gate1",
+  "backgroundId": "245d8638-2adb-4a63-9855-d0f3c9c5657b",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_12",
+  "x": 384,
+  "y": 536,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "e35948fe-95fe-4046-beea-fc6acf8e4982"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1,
+        "frames": 30
+      },
+      "id": "c27af001-f1e7-4f94-a386-71a7ea95257e"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " THE GATE IS\n STILL OPEN"
+        ],
+        "__section": "text",
+        "avatarId": "2a8cd350-b098-449d-acd7-7df27b6def69",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "4b5ebce8-bb24-4d7c-8920-62169724ba7c"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " I'M GOING TO\n MAKE IT!"
+        ],
+        "__section": "text",
+        "avatarId": "652a04ad-7c14-480e-b0b4-7038f1721d2b",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "50b02374-92a7-4e1c-9d18-a51b485b9b1b"
+    },
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "shakeDirection": "vertical",
+        "magnitude": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "841290cd-4cf7-4789-a29b-0b92ba38e507"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "e0143af3-7c43-4e62-a8d1-5ce15bd5b214",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "de0a87f3-080c-444b-a754-f3fe7b08f0eb"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

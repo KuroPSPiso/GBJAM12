@@ -1,0 +1,109 @@
+{
+  "_resourceType": "scene",
+  "id": "a95d2f3d-d48b-493a-b3fd-79d0b6b35132",
+  "_index": 6,
+  "name": "bed-1",
+  "backgroundId": "c39ed171-da73-4185-860e-0334e915217e",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_7",
+  "x": 576,
+  "y": 296,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "c3faa721-5dcf-4fe4-b2f6-0242adf9d091"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1,
+        "frames": 30
+      },
+      "id": "374aaf97-5625-40eb-a298-c1bc13352684"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " hnngg...",
+          " what time is it"
+        ],
+        "__section": "text",
+        "avatarId": "91b53a8c-be9f-4e6b-b885-eba9ac914f1a",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__comment": false
+      },
+      "id": "f86e2d9b-cc3c-4d83-8b68-8eda59e016d0"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " UHAAA!",
+          " School starts\n in 10 minutes!"
+        ],
+        "__section": "text",
+        "avatarId": "13a52618-6c22-4441-8553-7f3c18eca179",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__comment": false
+      },
+      "id": "5c6fe379-6b37-4d82-8c6f-22ecfbdb7e65"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "af6df550-a328-46d1-bac4-60c47f984d87",
+        "x": {
+          "type": "number",
+          "value": 1
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "0aa38d44-feff-4d1a-b82d-c6c68b630978"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

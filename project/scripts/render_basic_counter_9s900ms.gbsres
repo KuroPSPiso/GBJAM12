@@ -1,0 +1,42 @@
+{
+  "_resourceType": "script",
+  "id": "da705625-c45b-463b-b104-89564bb8ac0c",
+  "name": "render basic counter 9s+900ms",
+  "description": "",
+  "variables": {},
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "S actor"
+    },
+    "1": {
+      "id": "1",
+      "name": "MS actor"
+    }
+  },
+  "symbol": "script_2",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "1",
+        "frame": {
+          "type": "variable",
+          "value": "2"
+        }
+      },
+      "id": "be089034-f20e-42ca-aac3-3e9eb9645ef4"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "0",
+        "frame": {
+          "type": "variable",
+          "value": "1"
+        }
+      },
+      "id": "653693cc-96c3-4bfa-b863-c174383cadea"
+    }
+  ]
+}

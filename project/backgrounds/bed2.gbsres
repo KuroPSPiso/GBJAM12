@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "5afeaa93-a69d-4b86-9227-e42a5efd165c",
+  "name": "bed2",
+  "symbol": "bg_pixil_frame_2",
+  "width": 20,
+  "height": 24,
+  "imageWidth": 160,
+  "imageHeight": 192,
+  "filename": "bed2.png",
+  "tileColors": "00168+",
+  "autoColor": true
+}

@@ -1,0 +1,350 @@
+{
+  "_resourceType": "scene",
+  "id": "b6f39da2-bc42-4e19-be91-24d50b7dc4f1",
+  "_index": 5,
+  "name": "bed-0",
+  "backgroundId": "8ead4ebe-051a-4a8f-953a-514039dabc6d",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_6",
+  "x": 392,
+  "y": 296,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "732225f7-b658-44ca-86a9-e22605f27cc0"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1,
+        "frames": 30
+      },
+      "id": "eee65482-7316-4a5a-803a-570f0dc4c71b"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " The quick brown\n fox jumps over\n the lazy dog"
+        ],
+        "__section": "text",
+        "avatarId": "935bdf0a-f04c-422c-b744-26805c80ebed",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__comment": true
+      },
+      "id": "6a589a81-8fd6-4243-b09e-4b39ae9f5760"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " e...",
+          " E.P!...W...\n .P!"
+        ],
+        "__section": "text",
+        "avatarId": "6e9aa742-46b3-4b4f-b22e-12f8387ed859",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__comment": false,
+        "__collapse": false
+      },
+      "id": "238ad885-f776-4827-bed9-752ccac3edc6"
+    },
+    {
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "L0",
+        "trueText": "Wake up?",
+        "falseText": "Sleep"
+      },
+      "id": "c79c064e-1c76-4215-bffc-241efef3783b"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "L0"
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CAMERA_SHAKE",
+            "args": {
+              "time": 0.3,
+              "frames": 30,
+              "shakeDirection": "horizontal",
+              "magnitude": {
+                "type": "number",
+                "value": 1
+              },
+              "__collapse": false
+            },
+            "id": "fcbd2e5a-9371-487f-b50e-d9d0b1083963"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " ...zzz"
+              ],
+              "__section": "text",
+              "avatarId": "91b53a8c-be9f-4e6b-b885-eba9ac914f1a",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "dfcdd092-9ba5-4faf-9a52-66fa7177c9ba"
+          }
+        ],
+        "false": []
+      },
+      "id": "34ec3df0-cfc4-4da4-8be0-f9879ba2991b"
+    },
+    {
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "L0",
+        "trueText": "Wake up?",
+        "falseText": "Sleep",
+        "__collapse": false
+      },
+      "id": "cab21b00-e5f1-4b55-925c-e0f7d6cbdfbf"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "L0"
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CAMERA_SHAKE",
+            "args": {
+              "time": 0.3,
+              "frames": 30,
+              "shakeDirection": "vertical",
+              "magnitude": {
+                "type": "number",
+                "value": 3
+              },
+              "__collapse": false
+            },
+            "id": "3b08bc31-38b2-4ca3-bd50-87703ddf5573"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " nurghh...\n lemme sleep"
+              ],
+              "__section": "text",
+              "avatarId": "652a04ad-7c14-480e-b0b4-7038f1721d2b",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "9d2e926f-0242-4d58-b2f4-114a5a5a86c8"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " ...zzzZZZ"
+              ],
+              "__section": "text",
+              "avatarId": "91b53a8c-be9f-4e6b-b885-eba9ac914f1a",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "fc98ef6a-6b21-4af7-9c63-a32f905cebed"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " Narrator:\n Eep seems to be\n very sleepy",
+                " His last\n adventure was\n very draining"
+              ],
+              "__section": "text",
+              "avatarId": "6e9aa742-46b3-4b4f-b22e-12f8387ed859",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "c55fa912-26f0-46e5-9d61-faa9703d47da"
+          }
+        ],
+        "false": []
+      },
+      "id": "c3c41bcb-362a-4553-b6e1-2985c3708c04"
+    },
+    {
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "L0",
+        "trueText": "WAKE UP",
+        "falseText": "Sleep",
+        "__collapse": false
+      },
+      "id": "8b0ed5a3-7e7d-4ab1-b819-4c2b48c403bf"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "L0"
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [],
+        "false": []
+      },
+      "id": "1d712b0b-5fa8-4f23-8ec5-cc4ace653edb"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " EEP! Wake up!",
+          " You are going\n to be late for\n school"
+        ],
+        "__section": "text",
+        "avatarId": "8351d954-fd17-47ca-b836-a6a20fb23a1b",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__comment": false,
+        "__collapse": false
+      },
+      "id": "acd64a4b-1674-4f05-b04f-3b321a9401ca"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "a95d2f3d-d48b-493a-b3fd-79d0b6b35132",
+        "x": {
+          "type": "number",
+          "value": 1
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2",
+        "__collapse": true
+      },
+      "id": "e1177e5f-5124-4607-a147-fe841bf93459"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

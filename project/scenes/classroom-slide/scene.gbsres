@@ -1,9 +1,9 @@
 {
   "_resourceType": "scene",
-  "id": "160fa399-f0d7-4127-a6cf-65b4cd5ae21d",
-  "_index": 1,
-  "name": "School-template",
-  "backgroundId": "245d8638-2adb-4a63-9855-d0f3c9c5657b",
+  "id": "e0143af3-7c43-4e62-a8d1-5ce15bd5b214",
+  "_index": 10,
+  "name": "Classroom-slide",
+  "backgroundId": "9c1b140e-4b1d-4123-af30-7c83ef45a8f1",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -12,16 +12,16 @@
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_2",
-  "x": 448,
-  "y": 96,
+  "symbol": "scene_11",
+  "x": 576,
+  "y": 536,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
         "actorId": "$self$"
       },
-      "id": "16086dee-ecfe-4be3-8f78-0ba5fd5b65ec"
+      "id": "93ad3bd1-c201-4362-944d-736091610f03"
     },
     {
       "command": "EVENT_WAIT",
@@ -29,13 +29,26 @@
         "time": 1,
         "frames": 30
       },
-      "id": "bcd17a8b-a4ee-4492-a23c-84840a6dbfef"
+      "id": "1bb4b947-68d6-4fa5-bf8e-894f7ca0d901"
+    },
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 0.3,
+        "frames": 30,
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 6
+        }
+      },
+      "id": "e0148e1c-857a-4a36-bd98-326727a9dc72"
     },
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          " The quick brown\n fox jumps over\n the lazy dog"
+          " *skrrrr...*"
         ],
         "__section": "text",
         "avatarId": "935bdf0a-f04c-422c-b744-26805c80ebed",
@@ -54,7 +67,24 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "655306cf-b5aa-4a06-9e89-fe0810fc8167"
+      "id": "198cd4f9-f570-4734-8cac-edc4e77b5735"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "09f22c13-72b7-4b00-98c9-6d69726f9c30",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "9bfb06ce-2c8a-46c0-86dc-78a4a44c1c00"
     }
   ],
   "playerHit1Script": [],

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "b1b1c865-3c3c-4f1f-91ef-5296ac601317",
+  "name": "bed4",
+  "symbol": "bg_pixil_frame_6",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "bed4.png",
+  "autoColor": false,
+  "tileColors": "0091+062+0012+062+003+062+0012+062+0034+01!0073+"
+}

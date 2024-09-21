@@ -1,4 +1,40 @@
 {
   "_resourceType": "variables",
-  "variables": []
+  "variables": [
+    {
+      "id": "0",
+      "name": "run_toggle",
+      "symbol": "var_run_toggle"
+    },
+    {
+      "id": "adbf4e7d-2a62-480f-b4d2-0b1759fe416a__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
+    },
+    {
+      "id": "1",
+      "name": "timer_sec",
+      "symbol": "var_timer_sec"
+    },
+    {
+      "id": "2",
+      "name": "timer_ms",
+      "symbol": "var_timer_ms"
+    },
+    {
+      "id": "3",
+      "name": "timer_start",
+      "symbol": "var_timer_start"
+    },
+    {
+      "id": "4",
+      "name": "A_TICKS",
+      "symbol": "var_a_ticks"
+    },
+    {
+      "id": "b6f39da2-bc42-4e19-be91-24d50b7dc4f1__L0",
+      "name": "Local 0",
+      "symbol": "var_local_1"
+    }
+  ]
 }

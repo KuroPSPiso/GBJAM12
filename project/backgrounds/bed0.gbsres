@@ -1,13 +1,13 @@
 {
   "_resourceType": "background",
-  "id": "770e184d-5ce5-4938-b6e6-5bb511f52500",
-  "name": "classroom-bg",
-  "symbol": "bg_pixil_frame_0_18_",
+  "id": "8ead4ebe-051a-4a8f-953a-514039dabc6d",
+  "name": "bed0",
+  "symbol": "bg_pixil_frame_0",
   "width": 20,
   "height": 18,
   "imageWidth": 160,
   "imageHeight": 144,
-  "filename": "classroom-bg.png",
+  "filename": "bed0.png",
   "tileColors": "00168+",
   "autoColor": true
 }
