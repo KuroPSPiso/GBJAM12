@@ -8,6 +8,6 @@
   "imageWidth": 160,
   "imageHeight": 144,
   "filename": "bed4.png",
-  "autoColor": false,
-  "tileColors": "0091+062+0012+062+003+062+0012+062+0034+01!0073+"
+  "tileColors": "0091+062+0012+062+003+062+0012+062+0034+01!0073+",
+  "autoColor": false
 }

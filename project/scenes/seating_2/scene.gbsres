@@ -24,22 +24,24 @@
       "id": "70e8c7a7-59c7-43fa-9dc1-225af032c045"
     },
     {
-      "command": "EVENT_WAIT",
+      "command": "EVENT_ACTOR_SET_FRAME",
       "args": {
-        "time": 1,
-        "frames": 30
+        "actorId": "b7bbea96-9ed0-4746-82d4-c7ce7ef8482a",
+        "frame": {
+          "type": "number",
+          "value": 1
+        }
       },
-      "id": "ba72f3d4-fe9b-4e45-9b80-a0aedaa03977"
+      "id": "b4f949ad-fc89-4e2a-8f07-6f51deac1f1d"
     },
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          " *pant* *pant*",
-          " SAFE~!"
+          " how do you\n always manage"
         ],
         "__section": "text",
-        "avatarId": "652a04ad-7c14-480e-b0b4-7038f1721d2b",
+        "avatarId": "fdedb5d0-04b5-4b02-a0ea-580b7452df3b",
         "minHeight": 4,
         "maxHeight": 7,
         "textX": 1,
@@ -56,6 +58,56 @@
         "closeDelayFrames": 30
       },
       "id": "1b27e663-3d7f-4785-86ea-cb02da4055f1"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " manage what?"
+        ],
+        "__section": "text",
+        "avatarId": "935bdf0a-f04c-422c-b744-26805c80ebed",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "5d0792e3-f66f-4d5c-9a50-42f9ade4be10"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " to get here\n in time..."
+        ],
+        "__section": "text",
+        "avatarId": "fdedb5d0-04b5-4b02-a0ea-580b7452df3b",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "572de3e2-bdda-431f-9635-fb37e7f255da"
     },
     {
       "command": "EVENT_SWITCH_SCENE",

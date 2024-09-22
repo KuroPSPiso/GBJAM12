@@ -35,11 +35,12 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          " *pant* *pant*",
-          " SAFE~!"
+          " yeah how do you\n do that?",
+          " I feel like I\n need to leave",
+          " almost a full\n hour ahead"
         ],
         "__section": "text",
-        "avatarId": "652a04ad-7c14-480e-b0b4-7038f1721d2b",
+        "avatarId": "f46de3ff-5d61-4a03-a36f-96e1c541caca",
         "minHeight": 4,
         "maxHeight": 7,
         "textX": 1,
@@ -56,6 +57,49 @@
         "closeDelayFrames": 30
       },
       "id": "ffec6ac9-8406-4812-abb2-c0765e2f7372"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " I am as fast\n as can be",
+          " if I want\n I could be\n invincible"
+        ],
+        "__section": "text",
+        "avatarId": "2a8cd350-b098-449d-acd7-7df27b6def69",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "c46639cd-1750-4d49-b4e2-8fc4d296df14"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "946f48d9-95fc-45b2-bf3f-c82421d110ad",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "3749ad59-433b-4d63-b884-4da4ec78dc4e"
     }
   ],
   "playerHit1Script": [],
