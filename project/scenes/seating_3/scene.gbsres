@@ -1,9 +1,9 @@
 {
   "_resourceType": "scene",
-  "id": "09f22c13-72b7-4b00-98c9-6d69726f9c30",
-  "_index": 12,
+  "id": "de5a48d8-33d8-461e-b43f-c0f81ab52264",
+  "_index": 14,
   "name": "Seating",
-  "backgroundId": "aa6afa52-5e18-444e-8bcd-3239e823ae7a",
+  "backgroundId": "1631ffde-14b3-41a0-9920-03539b171260",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -12,8 +12,8 @@
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_13",
-  "x": 768,
+  "symbol": "scene_15",
+  "x": 1168,
   "y": 536,
   "script": [
     {
@@ -21,7 +21,7 @@
       "args": {
         "actorId": "$self$"
       },
-      "id": "92126780-8408-40aa-81cf-6f90db70fc39"
+      "id": "aae09f60-12fc-40bf-a681-7e0ae9802a58"
     },
     {
       "command": "EVENT_WAIT",
@@ -29,7 +29,7 @@
         "time": 1,
         "frames": 30
       },
-      "id": "c5c678a4-02e9-4f6d-8e8e-bdc0afa8af02"
+      "id": "539b0236-4077-4ed1-b304-dafd643c0b68"
     },
     {
       "command": "EVENT_TEXT",
@@ -55,24 +55,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "d923e620-9cd0-4a61-930f-3731234ecc87"
-    },
-    {
-      "command": "EVENT_SWITCH_SCENE",
-      "args": {
-        "sceneId": "b4c6e836-e0c8-4232-8796-e6d3870cf45f",
-        "x": {
-          "type": "number",
-          "value": 1
-        },
-        "y": {
-          "type": "number",
-          "value": 0
-        },
-        "direction": "",
-        "fadeSpeed": "2"
-      },
-      "id": "47a32f65-3d45-4a21-a1aa-65c769f20020"
+      "id": "ffec6ac9-8406-4812-abb2-c0765e2f7372"
     }
   ],
   "playerHit1Script": [],
