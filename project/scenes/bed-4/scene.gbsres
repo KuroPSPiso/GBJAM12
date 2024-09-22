@@ -132,7 +132,7 @@
               "value": {
                 "type": "true"
               },
-              "__collapse": true
+              "__collapse": false
             },
             "id": "43df9667-01ed-45b3-a734-47d2f4a207c9"
           },
@@ -144,7 +144,7 @@
                 "value": "0"
               },
               "__collapseElse": false,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
