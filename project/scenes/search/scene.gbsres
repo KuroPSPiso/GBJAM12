@@ -1,0 +1,158 @@
+{
+  "_resourceType": "scene",
+  "id": "9dd8d185-5e70-4824-9a39-421d7882fb02",
+  "_index": 25,
+  "name": "search",
+  "backgroundId": "770e184d-5ce5-4938-b6e6-5bb511f52500",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_26",
+  "x": 384,
+  "y": 1184,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "885f9b69-7617-44e2-bef0-a0b2785f7118"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1,
+        "frames": 30
+      },
+      "id": "8567c4bf-c0b1-4daf-ab3a-78b13d35af1e"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " ok where shall\n we start?"
+        ],
+        "__section": "text",
+        "avatarId": "2a8cd350-b098-449d-acd7-7df27b6def69",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "05302fb5-9067-45be-a839-29da96ff9f60"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " I mean we could\n look everywhere"
+        ],
+        "__section": "text",
+        "avatarId": "fdedb5d0-04b5-4b02-a0ea-580b7452df3b",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "a3637a2f-a371-4cbf-921e-f643eca4bf29"
+    },
+    {
+      "command": "EVENT_LOOP_WHILE",
+      "args": {
+        "condition": {
+          "type": "expression",
+          "value": "$508$ != 0x0F"
+        },
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_MENU",
+            "args": {
+              "variable": "L0",
+              "items": 3,
+              "option1": "Storage closet",
+              "option2": "Teachers desk",
+              "option3": "Student desk",
+              "option4": "",
+              "option5": "",
+              "option6": "",
+              "option7": "",
+              "option8": "",
+              "cancelOnB": false,
+              "layout": "dialogue"
+            },
+            "id": "7365928d-8b03-491e-8a3e-1708cb5c810d"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "dd6b264e-2aba-46ad-b5bb-f2b6277e905f",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "L0"
+              },
+              "__collapse": false
+            },
+            "id": "08c504a5-c7d8-4024-a71b-7056700358fa"
+          }
+        ]
+      },
+      "id": "dceed598-5bfc-4d13-be3a-b62da8d59282"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "fin"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "49036049-78b9-41fd-86e3-9a2fca8f9ec9"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

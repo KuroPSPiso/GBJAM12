@@ -17,7 +17,42 @@
   "symbol": "actor_3",
   "script": [],
   "startScript": [],
-  "updateScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "expression",
+          "value": "($01$ == 0) && ($02$ == 0)"
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "e5b6c048-abe7-459f-8a92-0abf3d3dadf5",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "3370eddb-7422-4518-bf2d-34fcb75687d3"
+          }
+        ],
+        "false": []
+      },
+      "id": "5cacbdf4-bd80-4a02-9a99-bca8730d1fdf"
+    }
+  ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],

@@ -14,7 +14,7 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_17",
   "x": 576,
-  "y": 736,
+  "y": 936,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -35,7 +35,89 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          " The quick brown\n fox jumps over\n the lazy dog"
+          " It's that slime",
+          " you know that\n ooze dripping\n everywhere"
+        ],
+        "__section": "text",
+        "avatarId": "f46de3ff-5d61-4a03-a36f-96e1c541caca",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "9e8b1e2a-09c1-4a89-8d5d-5da2b702e36e"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " yeah did you\n know...",
+          " that at night",
+          " someone or\n something is \n spreading this",
+          " They say that\n you will hear\n a scream",
+          " before they\n take you"
+        ],
+        "__section": "text",
+        "avatarId": "fdedb5d0-04b5-4b02-a0ea-580b7452df3b",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "510b9684-67b7-47cd-9cee-3238339f0674"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " no way...",
+          " I don't believe\n that"
+        ],
+        "__section": "text",
+        "avatarId": "652a04ad-7c14-480e-b0b4-7038f1721d2b",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "9d0477c9-4887-46b0-aa75-37232ab926f6"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " *however after\n what happened\n last night*",
+          " I guess...\n anything could\n happen"
         ],
         "__section": "text",
         "avatarId": "935bdf0a-f04c-422c-b744-26805c80ebed",
@@ -54,7 +136,343 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "9e8b1e2a-09c1-4a89-8d5d-5da2b702e36e"
+      "id": "bf8b9060-2e10-4efb-bce2-0d8c72a9cf92"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " I mean don't\n you ever wonder",
+          " what happened\n to that\ntransfer student"
+        ],
+        "__section": "text",
+        "avatarId": "fdedb5d0-04b5-4b02-a0ea-580b7452df3b",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "0fa24f89-92e8-4acd-bba5-ef2ab7914e34"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " where did he\n go?"
+        ],
+        "__section": "text",
+        "avatarId": "f46de3ff-5d61-4a03-a36f-96e1c541caca",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "af916c53-e66f-4d5e-beb6-b97f9bec1028"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " it has been\n 3 weeks",
+          " as far I know",
+          " I mean I never\n talked to him"
+        ],
+        "__section": "text",
+        "avatarId": "935bdf0a-f04c-422c-b744-26805c80ebed",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "26110989-a18c-4cfe-8885-f9421be1141a"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " right?",
+          " no one has seen\n or even talked\n about him",
+          " isn't that\n weird?"
+        ],
+        "__section": "text",
+        "avatarId": "fdedb5d0-04b5-4b02-a0ea-580b7452df3b",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "ebcbc6cf-9a47-42d0-bac9-9ff14e8f3285"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1,
+        "frames": 30
+      },
+      "id": "1a59064c-075f-4a0f-ad70-7f07609e6b9e"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " how about us 3\n go and check\n this out",
+          " like... meet\n after school\n is closed"
+        ],
+        "__section": "text",
+        "avatarId": "fdedb5d0-04b5-4b02-a0ea-580b7452df3b",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "764dcc34-e645-407d-8ca6-3d44a20d8278"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " NO WAY\n I would get in\n so much trouble",
+          " I'm out"
+        ],
+        "__section": "text",
+        "avatarId": "f46de3ff-5d61-4a03-a36f-96e1c541caca",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "1c6c8d93-0e2f-4b75-bd63-22531422f007"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " Eep what about\n you?",
+          " Are you a\n chicken?"
+        ],
+        "__section": "text",
+        "avatarId": "fdedb5d0-04b5-4b02-a0ea-580b7452df3b",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "e6f51113-a405-4fd0-b2aa-721d0ee98595"
+    },
+    {
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "511",
+        "trueText": "Go with umby",
+        "falseText": "Stay home tonight"
+      },
+      "id": "10224d4b-1aaa-4736-9f3e-973d50097e93"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "511"
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " I am no chicken"
+              ],
+              "__section": "text",
+              "avatarId": "652a04ad-7c14-480e-b0b4-7038f1721d2b",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "13a17a82-2618-4f23-bea0-5bf2d42b25cf"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " I am going to \n be strongest\n EVER!"
+              ],
+              "__section": "text",
+              "avatarId": "2a8cd350-b098-449d-acd7-7df27b6def69",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "cfa488b4-aed3-4fae-8da3-4ad51d50b90d"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " Keh...",
+                " Like I said\n I don't believe\n it"
+              ],
+              "__section": "text",
+              "avatarId": "935bdf0a-f04c-422c-b744-26805c80ebed",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "aa348dbe-ec34-44a5-bf08-777699687c06"
+          }
+        ]
+      },
+      "id": "a5575c1e-e363-432b-8c35-fafb2f3ec0e3"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " I mean seeing\n is believing\n right",
+          " I mean let.."
+        ],
+        "__section": "text",
+        "avatarId": "fdedb5d0-04b5-4b02-a0ea-580b7452df3b",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "7165fd94-957a-464c-96c2-9257f0e2fa3b"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "b76706ae-b2e4-4a24-a0bb-cebf23226ef0",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "a022fa26-8b34-43d6-99db-6a0deb8a5391"
     }
   ],
   "playerHit1Script": [],

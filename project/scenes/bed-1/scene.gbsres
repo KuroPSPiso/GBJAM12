@@ -14,8 +14,20 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_7",
   "x": 576,
-  "y": 296,
+  "y": 496,
   "script": [
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 250,
+        "duration": 0.05,
+        "effect": 0,
+        "__collapse": false
+      },
+      "id": "b7dd24f1-e543-4012-856a-c5b30cc76000"
+    },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {

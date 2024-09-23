@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "ced86596-50ae-4f21-bd94-bbe63951801d",
+  "name": "blank",
+  "symbol": "bg_lessons_copy",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "blank.png",
+  "tileColors": ""
+}

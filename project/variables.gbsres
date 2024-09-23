@@ -35,6 +35,57 @@
       "id": "b6f39da2-bc42-4e19-be91-24d50b7dc4f1__L0",
       "name": "Local 0",
       "symbol": "var_local_1"
+    },
+    {
+      "id": "6070f455-7ea9-49b2-8e36-4dbd0f814cea__L1",
+      "name": "Local 1",
+      "symbol": "var_local_2"
+    },
+    {
+      "id": "e5b6c048-abe7-459f-8a92-0abf3d3dadf5__L1",
+      "name": "Local 1",
+      "symbol": "var_local_3"
+    },
+    {
+      "id": "0eb49d88-1450-4eaf-ae88-ec33dab4b688__L1",
+      "name": "Local 1",
+      "symbol": "var_local_4"
+    },
+    {
+      "id": "64f3b6c8-76d1-4874-9020-25c8f1f96523__L1",
+      "name": "Local 1",
+      "symbol": "var_local_5"
+    },
+    {
+      "id": "db0be164-8e81-4726-b703-7847ee547b8e__L0",
+      "name": "Local 0",
+      "symbol": "var_local_6"
+    },
+    {
+      "id": "511",
+      "name": "no chicken",
+      "symbol": "var_no_chicken"
+    },
+    {
+      "id": "508",
+      "name": "search-classroom",
+      "symbol": "var_search_classroom",
+      "flags": {
+        "flag1": "gradecard",
+        "flag2": "sheet",
+        "flag3": "closet",
+        "flag4": "student-desk"
+      }
+    },
+    {
+      "id": "250",
+      "name": "NO_SET",
+      "symbol": "var_no_set"
+    },
+    {
+      "id": "4bd5999b-8774-492f-9e4b-8233dea71b1d__L1",
+      "name": "Local 1",
+      "symbol": "var_local_7"
     }
   ]
 }

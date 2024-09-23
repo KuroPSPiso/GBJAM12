@@ -14,8 +14,19 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_6",
   "x": 392,
-  "y": 296,
+  "y": 496,
   "script": [
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 400,
+        "duration": 0.05,
+        "effect": 0
+      },
+      "id": "20ffcc79-e0b7-4fa6-854c-2e7c77d27884"
+    },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
@@ -95,13 +106,25 @@
       "id": "c79c064e-1c76-4215-bffc-241efef3783b"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 250,
+        "duration": 0.05,
+        "effect": 0,
+        "__collapse": false
+      },
+      "id": "51eb0b39-881e-4725-9f5e-78c7b077a735"
+    },
+    {
       "command": "EVENT_IF",
       "args": {
         "condition": {
           "type": "variable",
           "value": "L0"
         },
-        "__collapseElse": true,
+        "__collapseElse": false,
         "__collapse": false
       },
       "children": {
@@ -142,12 +165,36 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false
+              "__collapse": false,
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 100,
+              "duration": 0.05,
+              "effect": 0
             },
             "id": "dfcdd092-9ba5-4faf-9a52-66fa7177c9ba"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "6070f455-7ea9-49b2-8e36-4dbd0f814cea",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2",
+              "__collapse": false
+            },
+            "id": "f0e8cd23-9b3d-41eb-b35f-d37a5a236169"
+          }
+        ]
       },
       "id": "34ec3df0-cfc4-4da4-8be0-f9879ba2991b"
     },
@@ -238,6 +285,17 @@
             "id": "fc98ef6a-6b21-4af7-9c63-a32f905cebed"
           },
           {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 100,
+              "duration": 0.05,
+              "effect": 0
+            },
+            "id": "7d3e6d59-609e-4ddb-a3a5-3e11ce051070"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
@@ -264,7 +322,25 @@
             "id": "c55fa912-26f0-46e5-9d61-faa9703d47da"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "6070f455-7ea9-49b2-8e36-4dbd0f814cea",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "d554e8ab-5f52-4168-b7df-a39227a0a37a"
+          }
+        ]
       },
       "id": "c3c41bcb-362a-4553-b6e1-2985c3708c04"
     },
@@ -288,14 +364,44 @@
             "value": "L0"
           }
         },
-        "__collapseElse": true,
-        "__collapse": true
+        "__collapseElse": false,
+        "__collapse": false
       },
       "children": {
-        "true": [],
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "6070f455-7ea9-49b2-8e36-4dbd0f814cea",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "239c461d-ef1b-460a-9236-5fa898e7d06d"
+          }
+        ],
         "false": []
       },
       "id": "1d712b0b-5fa8-4f23-8ec5-cc4ace653edb"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 400,
+        "duration": 0.05,
+        "effect": 0,
+        "__collapse": false
+      },
+      "id": "7df03a78-be8c-43b7-bbfe-de5429785d6d"
     },
     {
       "command": "EVENT_TEXT",

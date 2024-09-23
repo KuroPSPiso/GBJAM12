@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "b993ab97-a687-4312-a253-e7e2cdb7bf31",
+  "name": "student-desk",
+  "symbol": "bg_desk",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "student-desk.png",
+  "tileColors": ""
+}

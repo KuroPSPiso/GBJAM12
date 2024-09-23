@@ -13,15 +13,46 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_15",
-  "x": 1168,
-  "y": 536,
+  "x": 1136,
+  "y": 736,
   "script": [
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "93933d55-09e0-4280-815b-95facde41b4a",
+        "spriteStateId": "blink2",
+        "loopAnim": true
+      },
+      "id": "2a5cf06e-bf4b-4f05-9972-a1b4c3e930fd"
+    },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
         "actorId": "$self$"
       },
       "id": "aae09f60-12fc-40bf-a681-7e0ae9802a58"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "56a8f534-9b5b-4b72-b025-7be180ceb29d",
+        "frame": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "df7a1a9d-d756-4eeb-9ceb-651b87bea886"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "93933d55-09e0-4280-815b-95facde41b4a",
+        "frame": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "fe8dcd4a-5c2a-4db5-882c-b65bb8b7ad62"
     },
     {
       "command": "EVENT_WAIT",

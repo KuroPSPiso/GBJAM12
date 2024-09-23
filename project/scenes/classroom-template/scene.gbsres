@@ -14,7 +14,7 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
   "x": 624,
-  "y": 96,
+  "y": 88,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",

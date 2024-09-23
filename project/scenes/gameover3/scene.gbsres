@@ -1,0 +1,46 @@
+{
+  "_resourceType": "scene",
+  "id": "0eb49d88-1450-4eaf-ae88-ec33dab4b688",
+  "_index": 20,
+  "name": "GameOver3",
+  "backgroundId": "e2e28a84-4489-451b-9f2a-4d17a4ed4bf9",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_21",
+  "x": 768,
+  "y": 288,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "7c0e758f-95be-41de-875d-b012101c636d"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "c11dd6e0-ef3f-4dff-9e21-ccb9e2ba47bc",
+        "$variable[V0]$": {
+          "type": "number",
+          "value": 3
+        },
+        "$variable[V1]$": {
+          "type": "variable",
+          "value": "L1"
+        },
+        "__collapse": false
+      },
+      "id": "6a4eabeb-d4b4-4e6d-b1c0-317c7b67cc53"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

@@ -14,7 +14,7 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_10",
   "x": 1144,
-  "y": 288,
+  "y": 488,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -121,7 +121,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -143,8 +143,8 @@
                 "type": "variable",
                 "value": "0"
               },
-              "__collapseElse": false,
-              "__collapse": false
+              "__collapseElse": true,
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -350,7 +350,7 @@
                 },
                 "valueB": {
                   "type": "number",
-                  "value": 25
+                  "value": 40
                 }
               },
               "__collapseElse": true,
@@ -396,12 +396,13 @@
           "type": "number",
           "value": 9
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "64170f9b-93c3-4d73-80e5-fffa189dbae1"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
 }

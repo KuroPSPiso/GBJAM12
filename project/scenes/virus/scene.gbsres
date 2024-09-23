@@ -1,0 +1,109 @@
+{
+  "_resourceType": "scene",
+  "id": "d238b055-9149-4eb0-9fde-c06b0547964f",
+  "_index": 28,
+  "name": "virus",
+  "backgroundId": "83620495-8588-4ac3-984a-b7b1d73e647a",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_29",
+  "x": 800,
+  "y": 1344,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "cf82ba0a-c4b5-4737-84c0-c518e216e656"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 2,
+        "frames": 30
+      },
+      "id": "e570c6d8-1c9e-45b3-8a05-41ebfb0e3528"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " it's a note",
+          " looks like\n results from\n our science lab",
+          " sadly it is\n covered in goo"
+        ],
+        "__section": "text",
+        "avatarId": "935bdf0a-f04c-422c-b744-26805c80ebed",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "8b2c21b4-d4dc-4525-ae0a-c5530ec01783"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " it also looks\n there is a\n toilet on here",
+          " maybe we can\n check the one\n next to the la"
+        ],
+        "__section": "text",
+        "avatarId": "fdedb5d0-04b5-4b02-a0ea-580b7452df3b",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "1321f153-17c0-41b2-8b53-b69ae9d1fecc"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "9dd8d185-5e70-4824-9a39-421d7882fb02",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2",
+        "__collapse": false
+      },
+      "id": "8efcfff3-c899-4231-98d0-11bd9802f691"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

@@ -1,0 +1,9 @@
+{
+  "_resourceType": "music",
+  "id": "2fe85e85-612c-49fa-b524-edcbab820475",
+  "name": "not-found",
+  "symbol": "song_not_found",
+  "filename": "not-found.uge",
+  "settings": {},
+  "type": "uge"
+}

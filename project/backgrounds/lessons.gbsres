@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "6d4bbda8-e4be-4442-9a48-5dda0dc46a01",
+  "name": "lessons",
+  "symbol": "bg_pixil_frame_15",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "lessons.png",
+  "tileColors": ""
+}

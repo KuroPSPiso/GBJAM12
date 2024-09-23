@@ -14,7 +14,7 @@
           "type": "variable",
           "value": "3"
         },
-        "__collapseElse": true
+        "__collapseElse": false
       },
       "children": {
         "true": [
@@ -23,7 +23,8 @@
             "args": {
               "time": 0.1,
               "frames": 10,
-              "units": "time"
+              "units": "time",
+              "__collapse": false
             },
             "id": "55be7e43-db10-45a2-bb8d-90a4ea943531"
           },
@@ -37,8 +38,8 @@
                   "value": "2"
                 }
               },
-              "__collapseElse": true,
-              "__collapse": true
+              "__collapseElse": false,
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -52,8 +53,8 @@
                         "value": "1"
                       }
                     },
-                    "__collapseElse": true,
-                    "__collapse": true
+                    "__collapseElse": false,
+                    "__collapse": false
                   },
                   "children": {
                     "true": [
@@ -67,11 +68,12 @@
                           },
                           "y": {
                             "type": "number",
-                            "value": 11
+                            "value": 12
                           },
                           "direction": "",
                           "fadeSpeed": "2",
-                          "__collapse": true
+                          "__collapse": false,
+                          "__comment": true
                         },
                         "id": "40712224-e382-4e92-bc35-30c232bd483d"
                       }
@@ -97,7 +99,7 @@
                       "type": "number",
                       "value": 9
                     },
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "ceab3dc6-1e30-4422-91f2-23b9f752f60c"
                 }
