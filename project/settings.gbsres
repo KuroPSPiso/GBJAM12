@@ -1,13 +1,13 @@
 {
   "_resourceType": "settings",
-  "startSceneId": "a65161e3-a5db-4c26-a974-ffc26014a044",
-  "startX": 2,
-  "startY": 3,
+  "startSceneId": "cb3bc224-f818-4d57-a3d4-d9dd848270dd",
+  "startX": 0,
+  "startY": 1,
   "startMoveSpeed": 1,
   "startAnimSpeed": 15,
   "startDirection": "down",
   "showCollisionExtraTiles": false,
-  "sgbEnabled": false,
+  "sgbEnabled": true,
   "customHead": "",
   "defaultBackgroundPaletteIds": [
     "default-bg-1",

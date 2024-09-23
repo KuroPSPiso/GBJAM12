@@ -389,7 +389,8 @@
               "frequency": 140,
               "duration": 0.04,
               "wait": true,
-              "effect": 0
+              "effect": 0,
+              "__collapse": true
             },
             "id": "a3de66a5-1964-45cc-bb6b-0dc054f00165"
           }

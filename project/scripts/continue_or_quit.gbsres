@@ -40,7 +40,8 @@
         "option7": "",
         "option8": "",
         "cancelOnB": true,
-        "layout": "menu"
+        "layout": "menu",
+        "cancelOnLastOption": true
       },
       "id": "7fa6d159-0660-456f-8afc-23c95c6331e3"
     },
@@ -49,9 +50,10 @@
       "args": {
         "condition": {
           "type": "variable",
-          "value": "V0"
+          "value": "V1"
         },
-        "__collapseElse": false
+        "__collapseElse": false,
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -192,7 +194,7 @@
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "6070f455-7ea9-49b2-8e36-4dbd0f814cea",
+              "sceneId": "cb3bc224-f818-4d57-a3d4-d9dd848270dd",
               "x": {
                 "type": "number",
                 "value": 0
