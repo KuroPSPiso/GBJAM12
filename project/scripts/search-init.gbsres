@@ -81,6 +81,29 @@
               "closeDelayFrames": 30
             },
             "id": "729afafa-9800-4ca3-8fbe-e7763e9991b7"
+          },
+          {
+            "command": "EVENT_ADD_FLAGS",
+            "args": {
+              "variable": "508",
+              "flag1": false,
+              "flag2": false,
+              "flag3": true,
+              "flag4": false,
+              "flag5": false,
+              "flag6": false,
+              "flag7": false,
+              "flag8": false,
+              "flag9": false,
+              "flag10": false,
+              "flag11": false,
+              "flag12": false,
+              "flag13": false,
+              "flag14": false,
+              "flag15": false,
+              "flag16": false
+            },
+            "id": "24941bc5-6b71-4500-a3ea-ef99ae60e94f"
           }
         ],
         "true1": [
@@ -112,21 +135,40 @@
         "true15": [],
         "false": [
           {
-            "command": "EVENT_SWITCH_SCENE",
+            "command": "EVENT_IF",
             "args": {
-              "sceneId": "66d098ba-ac85-4f39-8529-3b6c18d8b1e9",
-              "x": {
-                "type": "number",
-                "value": 0
+              "condition": {
+                "type": "not",
+                "value": {
+                  "type": "variable",
+                  "value": "509"
+                }
               },
-              "y": {
-                "type": "number",
-                "value": 0
-              },
-              "direction": "",
-              "fadeSpeed": "2"
+              "__collapseElse": true
             },
-            "id": "b00b8ab7-285e-4e24-adfe-8dd726a81649"
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "66d098ba-ac85-4f39-8529-3b6c18d8b1e9",
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "direction": "",
+                    "fadeSpeed": "2"
+                  },
+                  "id": "b00b8ab7-285e-4e24-adfe-8dd726a81649"
+                }
+              ],
+              "false": []
+            },
+            "id": "f302c4b7-9f9a-4c93-a876-51b984861a5b"
           }
         ]
       },

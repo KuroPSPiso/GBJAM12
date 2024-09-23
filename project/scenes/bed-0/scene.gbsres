@@ -448,6 +448,11 @@
         "__collapse": true
       },
       "id": "e1177e5f-5124-4607-a147-fe841bf93459"
+    },
+    {
+      "command": "EVENT_RESET_VARIABLES",
+      "args": {},
+      "id": "91fd0b9b-cba8-4af7-b6d1-c5dd1e15eab9"
     }
   ],
   "playerHit1Script": [],

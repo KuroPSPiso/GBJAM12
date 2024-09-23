@@ -32,54 +32,84 @@
       "id": "8567c4bf-c0b1-4daf-ab3a-78b13d35af1e"
     },
     {
-      "command": "EVENT_TEXT",
+      "command": "EVENT_IF",
       "args": {
-        "text": [
-          " ok where shall\n we start?"
-        ],
-        "__section": "text",
-        "avatarId": "2a8cd350-b098-449d-acd7-7df27b6def69",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "510"
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
       },
-      "id": "05302fb5-9067-45be-a839-29da96ff9f60"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " ok where shall\n we start?"
+              ],
+              "__section": "text",
+              "avatarId": "2a8cd350-b098-449d-acd7-7df27b6def69",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "05302fb5-9067-45be-a839-29da96ff9f60"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " I mean we could\n look everywhere"
+              ],
+              "__section": "text",
+              "avatarId": "fdedb5d0-04b5-4b02-a0ea-580b7452df3b",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "a3637a2f-a371-4cbf-921e-f643eca4bf29"
+          }
+        ],
+        "false": []
+      },
+      "id": "ceba8bd2-b126-4d7d-a38d-74e3bd61dfb0"
     },
     {
-      "command": "EVENT_TEXT",
+      "command": "EVENT_SET_VALUE",
       "args": {
-        "text": [
-          " I mean we could\n look everywhere"
-        ],
-        "__section": "text",
-        "avatarId": "fdedb5d0-04b5-4b02-a0ea-580b7452df3b",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "variable": "510",
+        "value": {
+          "type": "true"
+        }
       },
-      "id": "a3637a2f-a371-4cbf-921e-f643eca4bf29"
+      "id": "0c9116ff-7a1e-4f96-88c7-08cc4c74178d"
     },
     {
       "command": "EVENT_LOOP_WHILE",
@@ -92,6 +122,32 @@
       },
       "children": {
         "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "look for clues\nwhere?\n$508$"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "3a1c10b9-1363-4a88-9440-32de8ac12f58"
+          },
           {
             "command": "EVENT_MENU",
             "args": {
@@ -130,10 +186,10 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "fin"
+          " hmm I think \n that this was\n it"
         ],
         "__section": "text",
-        "avatarId": "",
+        "avatarId": "fdedb5d0-04b5-4b02-a0ea-580b7452df3b",
         "minHeight": 4,
         "maxHeight": 7,
         "textX": 1,
@@ -150,6 +206,48 @@
         "closeDelayFrames": 30
       },
       "id": "49036049-78b9-41fd-86e3-9a2fca8f9ec9"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " let's go to\n that toilet"
+        ],
+        "__section": "text",
+        "avatarId": "935bdf0a-f04c-422c-b744-26805c80ebed",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "1769f42b-3713-4410-9f7f-351e84b3f042"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "d238b055-9149-4eb0-9fde-c06b0547964f",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "c342390e-53b4-46ee-92a2-2b529a57e605"
     }
   ],
   "playerHit1Script": [],

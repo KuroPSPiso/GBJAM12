@@ -86,6 +86,16 @@
       "id": "4bd5999b-8774-492f-9e4b-8233dea71b1d__L1",
       "name": "Local 1",
       "symbol": "var_local_7"
+    },
+    {
+      "id": "510",
+      "name": "skip-search",
+      "symbol": "var_skip_search"
+    },
+    {
+      "id": "509",
+      "name": "skip-sink",
+      "symbol": "var_skip_sink"
     }
   ]
 }

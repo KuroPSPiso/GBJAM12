@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "4b8a88be-0a58-487e-ae36-2c277bc82217",
+  "name": "found",
+  "symbol": "bg_pixil_frame_18",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "found.png",
+  "tileColors": ""
+}

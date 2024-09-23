@@ -1,9 +1,9 @@
 {
   "_resourceType": "scene",
-  "id": "d238b055-9149-4eb0-9fde-c06b0547964f",
-  "_index": 28,
+  "id": "305dcb15-9a4e-4e42-a3a5-ca1432a10d7b",
+  "_index": 29,
   "name": "virus",
-  "backgroundId": "83620495-8588-4ac3-984a-b7b1d73e647a",
+  "backgroundId": "4b8a88be-0a58-487e-ae36-2c277bc82217",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -12,16 +12,16 @@
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_29",
+  "symbol": "scene_30",
   "x": 800,
-  "y": 1344,
+  "y": 1152,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
         "actorId": "$self$"
       },
-      "id": "cf82ba0a-c4b5-4737-84c0-c518e216e656"
+      "id": "e1c7a72f-a368-46a3-97a7-fdc55ceb6d2f"
     },
     {
       "command": "EVENT_WAIT",
@@ -29,34 +29,7 @@
         "time": 2,
         "frames": 30
       },
-      "id": "e570c6d8-1c9e-45b3-8a05-41ebfb0e3528"
-    },
-    {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          " it's a note",
-          " looks like\n results from\n our science lab",
-          " sadly it is\n covered in goo"
-        ],
-        "__section": "text",
-        "avatarId": "935bdf0a-f04c-422c-b744-26805c80ebed",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
-      },
-      "id": "8b2c21b4-d4dc-4525-ae0a-c5530ec01783"
+      "id": "2df12d66-185b-4575-8fa0-4eafad8cffed"
     },
     {
       "command": "EVENT_TEXT",
@@ -82,7 +55,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "1321f153-17c0-41b2-8b53-b69ae9d1fecc"
+      "id": "49be03cd-72fe-460a-88da-8f09cbe59e97"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -92,7 +65,7 @@
           "type": "true"
         }
       },
-      "id": "b071e3c8-665c-423d-893f-30b21264ecb2"
+      "id": "066a6e09-a4ab-4d74-aa0b-7908f99b7e21"
     },
     {
       "command": "EVENT_ADD_FLAGS",
@@ -115,7 +88,7 @@
         "flag15": false,
         "flag16": false
       },
-      "id": "8c1e3bdc-f21b-46f8-88cd-26af646e2a36"
+      "id": "65258a66-fa21-4d5d-9811-203fc9a5c117"
     },
     {
       "command": "EVENT_SWITCH_SCENE",
@@ -133,7 +106,7 @@
         "fadeSpeed": "2",
         "__collapse": false
       },
-      "id": "8efcfff3-c899-4231-98d0-11bd9802f691"
+      "id": "87b30dd1-40e9-4502-8f95-bb4ed2d2ee85"
     }
   ],
   "playerHit1Script": [],
