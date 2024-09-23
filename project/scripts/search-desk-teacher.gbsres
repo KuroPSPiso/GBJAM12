@@ -260,7 +260,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      " is it me or has\n it been longer\n than 3 weeks",
+                      " is it me or has\n it been longer\n than a week",
                       " since the new\n kid was last\n here"
                     ],
                     "__section": "text",
@@ -299,7 +299,8 @@
                   "args": {
                     "text": [
                       " looks to me\n like he isn't\n even on here",
-                      " OH! here he is\n 4 weeks ago ye"
+                      " OH! here he is",
+                      " almost 2 weeks\n ago yeah"
                     ],
                     "__section": "text",
                     "avatarId": "935bdf0a-f04c-422c-b744-26805c80ebed",

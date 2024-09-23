@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "4c43b655-67d1-4f59-94af-8b3aeb8d4bc4",
+  "name": "janitor",
+  "symbol": "bg_pixil_frame_20",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "janitor.png",
+  "tileColors": ""
+}

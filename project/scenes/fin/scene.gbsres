@@ -1,9 +1,9 @@
 {
   "_resourceType": "scene",
-  "id": "b0c8201a-4945-40ef-8197-ccecbcecf75b",
-  "_index": 32,
-  "name": "Hallwaydown",
-  "backgroundId": "3617b5c4-49b5-4531-adea-e48f36ec5507",
+  "id": "a65161e3-a5db-4c26-a974-ffc26014a044",
+  "_index": 37,
+  "name": "fin",
+  "backgroundId": "ff3161e1-45a2-4651-acf7-61c9c6017633",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -12,16 +12,16 @@
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_33",
-  "x": 600,
-  "y": 1528,
+  "symbol": "scene_38",
+  "x": 1584,
+  "y": 1512,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
         "actorId": "$self$"
       },
-      "id": "a8dc3600-cc7e-4cde-972b-2dde923d88f3"
+      "id": "a78c3985-5d2d-47ba-98d5-f48e60b5aa33"
     },
     {
       "command": "EVENT_WAIT",
@@ -29,7 +29,7 @@
         "time": 1,
         "frames": 30
       },
-      "id": "257763a8-342a-40dc-a649-ebbf5422bcf9"
+      "id": "cae79454-31d0-4252-9c12-fbf666b8ecc7"
     },
     {
       "command": "EVENT_TEXT_SET_SOUND_EFFECT",
@@ -40,16 +40,18 @@
         "duration": 0.05,
         "effect": 0
       },
-      "id": "09a7e8b7-b9af-4c0e-a0de-94a730230642"
+      "id": "63616e35-ea23-4e71-934e-202e2e7071f9"
     },
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          " hey look"
+          " I think...",
+          " that these are\n enough\n adventures",
+          " for a while\n at least..."
         ],
         "__section": "text",
-        "avatarId": "935bdf0a-f04c-422c-b744-26805c80ebed",
+        "avatarId": "13a52618-6c22-4441-8553-7f3c18eca179",
         "minHeight": 4,
         "maxHeight": 7,
         "textX": 1,
@@ -65,28 +67,16 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "b70b9e7f-a153-4658-8202-dfff3cade00a"
-    },
-    {
-      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
-      "args": {
-        "type": "tone",
-        "pitch": 4,
-        "frequency": 140,
-        "duration": 0.05,
-        "effect": 0
-      },
-      "id": "5cac2c28-717f-464e-b776-3a463b827af9"
+      "id": "88fe78fa-ee15-4d1a-a82c-7f2eb8022b6b"
     },
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          " it looks like a\n trail going\n down",
-          " seems to be\n going to the\n nearest toilet"
+          "FIN"
         ],
         "__section": "text",
-        "avatarId": "fdedb5d0-04b5-4b02-a0ea-580b7452df3b",
+        "avatarId": "",
         "minHeight": 4,
         "maxHeight": 7,
         "textX": 1,
@@ -102,12 +92,12 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "b19446dc-6fd4-4854-ade1-321beb7c80b2"
+      "id": "6b999d83-6c19-49dc-87fb-ace15e209b7f"
     },
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "794646f9-a8e9-4547-9c55-d8fbda14e47c",
+        "sceneId": "e3b13375-5017-44f7-b795-a423b6bfc851",
         "x": {
           "type": "number",
           "value": 0
@@ -119,7 +109,7 @@
         "direction": "",
         "fadeSpeed": "2"
       },
-      "id": "58546ded-97b0-4943-8877-28202f5d0773"
+      "id": "4d70fd17-d549-4fe5-96cf-7d63ce1a6033"
     }
   ],
   "playerHit1Script": [],

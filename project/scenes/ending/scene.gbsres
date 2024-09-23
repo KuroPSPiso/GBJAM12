@@ -1,0 +1,95 @@
+{
+  "_resourceType": "scene",
+  "id": "3f7d23bc-fe4b-4567-88c0-2091304b3b5d",
+  "_index": 36,
+  "name": "ending",
+  "backgroundId": "ced86596-50ae-4f21-bd94-bbe63951801d",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_37",
+  "x": 1387.6571393694196,
+  "y": 1511.7714146205358,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "5af192bb-69ad-4c3c-af98-6cbe075a4771"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1,
+        "frames": 30
+      },
+      "id": "cd75da39-3aef-4a9d-9f4c-ea283f962c6a"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 80,
+        "duration": 0.05,
+        "effect": 0
+      },
+      "id": "8393d2b7-8ff2-4ef3-95e3-88dce454ae84"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " Eep and Umby were\n brought to the \n guard",
+          " The guard then\n called their\n parents",
+          " Eep was sent home\n with house arrest\n as punishment",
+          " the next day\n Eep and Umby\n found out why",
+          " ... why, the new\n kid wasn't at\n school"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "990e7550-d0b8-4cb6-bdaa-213959c39f60"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "a65161e3-a5db-4c26-a974-ffc26014a044",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "e8c912d4-593a-4079-8327-ec5e3e2e9e79"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

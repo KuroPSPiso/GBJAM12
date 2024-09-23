@@ -1,0 +1,384 @@
+{
+  "_resourceType": "scene",
+  "id": "3474b9a5-0def-4652-8ca5-384971f6ccf2",
+  "_index": 35,
+  "name": "toilet door open",
+  "backgroundId": "4c43b655-67d1-4f59-94af-8b3aeb8d4bc4",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_36",
+  "x": 1192.2285679408483,
+  "y": 1518.1714564732142,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "596647cf-5e5b-4e1c-924b-b3d93b12b4ab"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 60,
+        "duration": 0.05,
+        "effect": 0
+      },
+      "id": "3f6ecff4-d4f5-47e6-8455-e383e35cd29a"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "962ae5db-42a5-426c-8813-92d5ecf53526",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "a09cf382-6c31-4995-9861-e880a6d77651"
+    },
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "shakeDirection": "vertical",
+        "magnitude": {
+          "type": "number",
+          "value": 5
+        }
+      },
+      "id": "d4841099-2a21-4515-be61-3f75bf007a2d"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 2,
+        "frames": 30
+      },
+      "id": "2486499f-5d82-4129-b579-53c94db09429"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " *A-A-CHOOO*",
+          " *sniff* *snort*",
+          " so...",
+          " you are here\n to explore"
+        ],
+        "__section": "text",
+        "avatarId": "6e9aa742-46b3-4b4f-b22e-12f8387ed859",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "4f63a173-5402-4c91-b394-19e7c97d3a63"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 140,
+        "duration": 0.05,
+        "effect": 0
+      },
+      "id": "0f2be610-6d73-496d-836a-589b83ba38c2"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " uncover the\n secret behind\n the slime"
+        ],
+        "__section": "text",
+        "avatarId": "fdedb5d0-04b5-4b02-a0ea-580b7452df3b",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "caff2abc-dcb4-450b-9905-ad98aacf8bf6"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 250,
+        "duration": 0.05,
+        "effect": 0
+      },
+      "id": "82d5a403-238c-4df9-b553-a76a0f05c00c"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " and missing\n people"
+        ],
+        "__section": "text",
+        "avatarId": "13a52618-6c22-4441-8553-7f3c18eca179",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "5f70ddc5-78fe-4dfb-b44a-fa031e0af369"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 60,
+        "duration": 0.05,
+        "effect": 0
+      },
+      "id": "70f393c7-3699-4e32-85c3-f28f1782d5aa"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " missing people\n you say",
+          " you sure they\n aren't just \n sick"
+        ],
+        "__section": "text",
+        "avatarId": "6e9aa742-46b3-4b4f-b22e-12f8387ed859",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "162836f1-7d9d-41fa-a59a-bb2e069fc362"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 140,
+        "duration": 0.05,
+        "effect": 0
+      },
+      "id": "942a554a-cb02-4ec6-8597-1670e6a795b6"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " you look pretty\n sick yourself"
+        ],
+        "__section": "text",
+        "avatarId": "fdedb5d0-04b5-4b02-a0ea-580b7452df3b",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "190455bd-e6a2-4141-92ea-72fbb50b16e4"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 60,
+        "duration": 0.05,
+        "effect": 0
+      },
+      "id": "eeec4e1d-15b7-465b-82e7-9050b4ccf170"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " me?!?",
+          " SICK!",
+          " *hahaha*\n impossible"
+        ],
+        "__section": "text",
+        "avatarId": "6e9aa742-46b3-4b4f-b22e-12f8387ed859",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "282c3238-b937-42ec-8c8d-fca03608c2ae"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 250,
+        "duration": 0.05,
+        "effect": 0
+      },
+      "id": "a014538f-6967-45b8-92db-dc5091896384"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " well you have\n been sneezing a\n lot it seems",
+          " also  you are\n leaving a trail\n of goo behind"
+        ],
+        "__section": "text",
+        "avatarId": "935bdf0a-f04c-422c-b744-26805c80ebed",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "08486536-713a-4b0e-af37-66737d5a4dc2"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 60,
+        "duration": 0.05,
+        "effect": 0
+      },
+      "id": "b81d93e2-da0f-4e12-b262-d04b3b534865"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " Really?",
+          " I thought it\n was a prank\n by some kids",
+          " I mean, a few\n weeks ago...",
+          " some lab kid \n asked all kinds\n of questions",
+          " he said he\n would be back",
+          " but never did",
+          " anyway...",
+          " I have to take\n you kids to\n the guard",
+          " You aren't\n supposed to be\n here"
+        ],
+        "__section": "text",
+        "avatarId": "6e9aa742-46b3-4b4f-b22e-12f8387ed859",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "d9cf8910-4a31-4903-963f-9890a67d9b54"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "3f7d23bc-fe4b-4567-88c0-2091304b3b5d",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "5f6a69a4-7ecf-4329-a7dd-5cb83c312efb"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

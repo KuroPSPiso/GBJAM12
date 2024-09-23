@@ -73,7 +73,7 @@
       "args": {
         "type": "tone",
         "pitch": 4,
-        "frequency": 140,
+        "frequency": 250,
         "duration": 0.05,
         "effect": 0
       },

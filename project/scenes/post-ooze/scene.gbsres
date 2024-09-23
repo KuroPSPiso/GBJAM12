@@ -191,7 +191,7 @@
       "args": {
         "text": [
           " I mean don't\n you ever wonder",
-          " what happened\n to that\ntransfer student"
+          " what happened\n to the new kid"
         ],
         "__section": "text",
         "avatarId": "fdedb5d0-04b5-4b02-a0ea-580b7452df3b",
@@ -265,7 +265,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          " it has been\n 3 weeks",
+          " it has been\n a week",
           " as far I know",
           " I mean I never\n talked to him"
         ],
@@ -453,7 +453,7 @@
       "command": "EVENT_CHOICE",
       "args": {
         "variable": "511",
-        "trueText": "Go with umby",
+        "trueText": "Go with Umby",
         "falseText": "Stay home tonight"
       },
       "id": "10224d4b-1aaa-4736-9f3e-973d50097e93"

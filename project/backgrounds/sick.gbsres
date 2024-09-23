@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "ff3161e1-45a2-4651-acf7-61c9c6017633",
+  "name": "sick",
+  "symbol": "bg_sick",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "sick.png",
+  "tileColors": ""
+}
