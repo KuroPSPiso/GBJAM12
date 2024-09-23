@@ -2,7 +2,7 @@
   "_resourceType": "scene",
   "id": "305dcb15-9a4e-4e42-a3a5-ca1432a10d7b",
   "_index": 29,
-  "name": "virus",
+  "name": "found",
   "backgroundId": "4b8a88be-0a58-487e-ae36-2c277bc82217",
   "tilesetId": "",
   "width": 20,
@@ -13,8 +13,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_30",
-  "x": 800,
-  "y": 1152,
+  "x": 976,
+  "y": 1120,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -22,6 +22,28 @@
         "actorId": "$self$"
       },
       "id": "e1c7a72f-a368-46a3-97a7-fdc55ceb6d2f"
+    },
+    {
+      "command": "EVENT_OVERLAY_SHOW",
+      "args": {
+        "color": "black",
+        "x": 0,
+        "y": 0
+      },
+      "id": "fead739d-5055-4924-8c08-b7fb12e500e2"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1,
+        "frames": 30
+      },
+      "id": "fa5d237a-5155-4621-b45b-8d16b26cdbe0"
+    },
+    {
+      "command": "EVENT_OVERLAY_HIDE",
+      "args": {},
+      "id": "a928feb4-57f7-4450-9847-9b64d17b182f"
     },
     {
       "command": "EVENT_WAIT",
@@ -32,14 +54,26 @@
       "id": "2df12d66-185b-4575-8fa0-4eafad8cffed"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 100,
+        "duration": 0.05,
+        "effect": 0,
+        "__collapse": false
+      },
+      "id": "96081705-40a1-4b2b-8c1c-4d15614638b1"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          " it also looks\n there is a\n toilet on here",
-          " maybe we can\n check the one\n next to the lab"
+          " FOUND YOU!",
+          " COME OVER HERE!"
         ],
         "__section": "text",
-        "avatarId": "fdedb5d0-04b5-4b02-a0ea-580b7452df3b",
+        "avatarId": "",
         "minHeight": 4,
         "maxHeight": 7,
         "textX": 1,
@@ -53,47 +87,15 @@
         "closeWhen": "key",
         "closeButton": "a",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__collapse": false
       },
-      "id": "49be03cd-72fe-460a-88da-8f09cbe59e97"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "509",
-        "value": {
-          "type": "true"
-        }
-      },
-      "id": "066a6e09-a4ab-4d74-aa0b-7908f99b7e21"
-    },
-    {
-      "command": "EVENT_ADD_FLAGS",
-      "args": {
-        "variable": "508",
-        "flag1": false,
-        "flag2": false,
-        "flag3": false,
-        "flag4": true,
-        "flag5": false,
-        "flag6": false,
-        "flag7": false,
-        "flag8": false,
-        "flag9": false,
-        "flag10": false,
-        "flag11": false,
-        "flag12": false,
-        "flag13": false,
-        "flag14": false,
-        "flag15": false,
-        "flag16": false
-      },
-      "id": "65258a66-fa21-4d5d-9811-203fc9a5c117"
+      "id": "f906d35f-a8e2-4f25-a0e9-bb39d709cc8e"
     },
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "9dd8d185-5e70-4824-9a39-421d7882fb02",
+        "sceneId": "4bd5999b-8774-492f-9e4b-8233dea71b1d",
         "x": {
           "type": "number",
           "value": 0

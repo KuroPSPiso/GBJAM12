@@ -81,9 +81,22 @@
               "option8": "",
               "cancelOnB": true,
               "layout": "dialogue",
-              "cancelOnLastOption": true
+              "cancelOnLastOption": true,
+              "__collapse": false
             },
             "id": "71ae0cf9-7e1d-435c-aeaf-3375ad3293d6"
+          },
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 80,
+              "duration": 0.05,
+              "effect": 0,
+              "__collapse": false
+            },
+            "id": "a8d49d2d-0365-4f50-af63-5e13886d92a1"
           },
           {
             "command": "EVENT_SWITCH",
@@ -122,57 +135,190 @@
               "value14": 15,
               "__collapseCase15": false,
               "value15": 16,
-              "__collapseElse": false
+              "__collapseElse": false,
+              "__collapse": false
             },
             "children": {
               "true0": [
                 {
-                  "command": "EVENT_ADD_FLAGS",
+                  "command": "EVENT_TEXT",
                   "args": {
-                    "variable": "508",
-                    "flag1": true,
-                    "flag2": false,
-                    "flag3": false,
-                    "flag4": false,
-                    "flag5": false,
-                    "flag6": false,
-                    "flag7": false,
-                    "flag8": false,
-                    "flag9": false,
-                    "flag10": false,
-                    "flag11": false,
-                    "flag12": false,
-                    "flag13": false,
-                    "flag14": false,
-                    "flag15": false,
-                    "flag16": false
+                    "text": [
+                      " Umby seems to\n have failed some\n test"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
                   },
-                  "id": "f359fc61-4148-417a-821c-8addd40f59db"
+                  "id": "d6aef676-0a85-4304-8c76-65f0c7ec986b"
+                },
+                {
+                  "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+                  "args": {
+                    "type": "tone",
+                    "pitch": 4,
+                    "frequency": 140,
+                    "duration": 0.05,
+                    "effect": 0,
+                    "__collapse": false
+                  },
+                  "id": "817e50f1-1099-4467-8ac5-ee7272c9cdad"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      " HEY!",
+                      " no peeking!"
+                    ],
+                    "__section": "text",
+                    "avatarId": "fdedb5d0-04b5-4b02-a0ea-580b7452df3b",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "1297dd6d-ce21-4330-aede-05c27812996e"
+                },
+                {
+                  "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+                  "args": {
+                    "type": "tone",
+                    "pitch": 4,
+                    "frequency": 250,
+                    "duration": 0.05,
+                    "effect": 0,
+                    "__collapse": false
+                  },
+                  "id": "55ce6bf0-8b43-4cb2-bda7-301c10660de4"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      " Hehe!",
+                      " O-OK!",
+                      " *it is not like\n I didn't\n already know*"
+                    ],
+                    "__section": "text",
+                    "avatarId": "935bdf0a-f04c-422c-b744-26805c80ebed",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "f442aa72-f509-4a04-b50f-707a41ad6cfa"
                 }
               ],
               "true1": [
                 {
-                  "command": "EVENT_ADD_FLAGS",
+                  "command": "EVENT_TEXT_SET_SOUND_EFFECT",
                   "args": {
-                    "variable": "508",
-                    "flag1": false,
-                    "flag2": true,
-                    "flag3": false,
-                    "flag4": false,
-                    "flag5": false,
-                    "flag6": false,
-                    "flag7": false,
-                    "flag8": false,
-                    "flag9": false,
-                    "flag10": false,
-                    "flag11": false,
-                    "flag12": false,
-                    "flag13": false,
-                    "flag14": false,
-                    "flag15": false,
-                    "flag16": false
+                    "type": "tone",
+                    "pitch": 4,
+                    "frequency": 140,
+                    "duration": 0.05,
+                    "effect": 0,
+                    "__collapse": false
                   },
-                  "id": "8efc408a-4310-4731-80c6-c5fe4a18bbf6"
+                  "id": "388b1005-88fe-4b29-98ed-5b04cdfdd27e"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      " is it me or has\n it been longer\n than 3 weeks",
+                      " since the new\n kid was last\n here"
+                    ],
+                    "__section": "text",
+                    "avatarId": "fdedb5d0-04b5-4b02-a0ea-580b7452df3b",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "d49169d4-fa41-4434-87bc-93a38780a527"
+                },
+                {
+                  "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+                  "args": {
+                    "type": "tone",
+                    "pitch": 4,
+                    "frequency": 250,
+                    "duration": 0.05,
+                    "effect": 0,
+                    "__collapse": false
+                  },
+                  "id": "bcfce5e9-2656-4478-8df5-0fbd4a8309b8"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      " looks to me\n like he isn't\n even on here",
+                      " OH! here he is\n 4 weeks ago ye"
+                    ],
+                    "__section": "text",
+                    "avatarId": "935bdf0a-f04c-422c-b744-26805c80ebed",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "a0e1640b-3291-41ed-8070-ea12a67d83ad"
                 }
               ],
               "true2": [],
@@ -192,6 +338,54 @@
               "false": []
             },
             "id": "ecdabd75-481f-407b-a6e4-9ef072c02b84"
+          },
+          {
+            "command": "EVENT_ADD_FLAGS",
+            "args": {
+              "variable": "508",
+              "flag1": true,
+              "flag2": false,
+              "flag3": false,
+              "flag4": false,
+              "flag5": false,
+              "flag6": false,
+              "flag7": false,
+              "flag8": false,
+              "flag9": false,
+              "flag10": false,
+              "flag11": false,
+              "flag12": false,
+              "flag13": false,
+              "flag14": false,
+              "flag15": false,
+              "flag16": false,
+              "__collapse": true
+            },
+            "id": "f359fc61-4148-417a-821c-8addd40f59db"
+          },
+          {
+            "command": "EVENT_ADD_FLAGS",
+            "args": {
+              "variable": "508",
+              "flag1": false,
+              "flag2": true,
+              "flag3": false,
+              "flag4": false,
+              "flag5": false,
+              "flag6": false,
+              "flag7": false,
+              "flag8": false,
+              "flag9": false,
+              "flag10": false,
+              "flag11": false,
+              "flag12": false,
+              "flag13": false,
+              "flag14": false,
+              "flag15": false,
+              "flag16": false,
+              "__collapse": true
+            },
+            "id": "8efc408a-4310-4731-80c6-c5fe4a18bbf6"
           }
         ]
       },

@@ -13,8 +13,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_26",
-  "x": 384,
-  "y": 1184,
+  "x": 576,
+  "y": 1208,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -30,76 +30,6 @@
         "frames": 30
       },
       "id": "8567c4bf-c0b1-4daf-ab3a-78b13d35af1e"
-    },
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "not",
-          "value": {
-            "type": "variable",
-            "value": "510"
-          }
-        },
-        "__collapseElse": true,
-        "__collapse": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                " ok where shall\n we start?"
-              ],
-              "__section": "text",
-              "avatarId": "2a8cd350-b098-449d-acd7-7df27b6def69",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
-            },
-            "id": "05302fb5-9067-45be-a839-29da96ff9f60"
-          },
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                " I mean we could\n look everywhere"
-              ],
-              "__section": "text",
-              "avatarId": "fdedb5d0-04b5-4b02-a0ea-580b7452df3b",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
-            },
-            "id": "a3637a2f-a371-4cbf-921e-f643eca4bf29"
-          }
-        ],
-        "false": []
-      },
-      "id": "ceba8bd2-b126-4d7d-a38d-74e3bd61dfb0"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -126,7 +56,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "look for clues\nwhere?\n$508$"
+                "look for clues\nwhere?"
               ],
               "__section": "text",
               "avatarId": "",
@@ -183,6 +113,18 @@
       "id": "dceed598-5bfc-4d13-be3a-b62da8d59282"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 140,
+        "duration": 0.05,
+        "effect": 0,
+        "__collapse": false
+      },
+      "id": "f0199122-30ef-49de-97cf-5446acca5078"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -203,9 +145,22 @@
         "closeWhen": "key",
         "closeButton": "a",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__collapse": true
       },
       "id": "49036049-78b9-41fd-86e3-9a2fca8f9ec9"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 250,
+        "duration": 0.05,
+        "effect": 0,
+        "__collapse": false
+      },
+      "id": "8c60531d-443f-4b6d-aee1-3bc35fe98a91"
     },
     {
       "command": "EVENT_TEXT",
@@ -235,7 +190,7 @@
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "d238b055-9149-4eb0-9fde-c06b0547964f",
+        "sceneId": "50648776-6491-41e5-87af-bbc5040c4f92",
         "x": {
           "type": "number",
           "value": 0

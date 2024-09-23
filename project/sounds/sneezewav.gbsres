@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "962ae5db-42a5-426c-8813-92d5ecf53526",
+  "name": "sneeze.wav",
+  "symbol": "sound_sneeze_wav",
+  "filename": "sneeze.wav",
+  "type": "wav"
+}

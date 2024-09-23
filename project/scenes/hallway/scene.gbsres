@@ -1,9 +1,9 @@
 {
   "_resourceType": "scene",
-  "id": "b4c6e836-e0c8-4232-8796-e6d3870cf45f",
-  "_index": 13,
-  "name": "Seating",
-  "backgroundId": "7406a74a-4b2c-41cb-81d8-7112ba4f8ed1",
+  "id": "50648776-6491-41e5-87af-bbc5040c4f92",
+  "_index": 31,
+  "name": "Hallway",
+  "backgroundId": "9321da7e-10bf-4683-9c3b-f7b78d03dc94",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -12,27 +12,24 @@
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_14",
-  "x": 944,
-  "y": 736,
+  "symbol": "scene_32",
+  "x": 400,
+  "y": 1528,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
         "actorId": "$self$"
       },
-      "id": "70e8c7a7-59c7-43fa-9dc1-225af032c045"
+      "id": "d3304fcb-79ae-4583-ae8e-e5ebed328add"
     },
     {
-      "command": "EVENT_ACTOR_SET_FRAME",
+      "command": "EVENT_WAIT",
       "args": {
-        "actorId": "b7bbea96-9ed0-4746-82d4-c7ce7ef8482a",
-        "frame": {
-          "type": "number",
-          "value": 0
-        }
+        "time": 1,
+        "frames": 30
       },
-      "id": "b4f949ad-fc89-4e2a-8f07-6f51deac1f1d"
+      "id": "5b9d18fc-18f7-4aa3-861a-b1dedc54f976"
     },
     {
       "command": "EVENT_TEXT_SET_SOUND_EFFECT",
@@ -41,16 +38,16 @@
         "pitch": 4,
         "frequency": 140,
         "duration": 0.05,
-        "effect": 0,
-        "__collapse": false
+        "effect": 0
       },
-      "id": "d648c133-7799-4911-9fd5-4ed2b37d0fd1"
+      "id": "319a1021-eebf-4b96-8938-1da758005b10"
     },
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          " how do you\n always manage"
+          " if I remember\n correctly",
+          " the sciencelab\n should be at\n down the end"
         ],
         "__section": "text",
         "avatarId": "fdedb5d0-04b5-4b02-a0ea-580b7452df3b",
@@ -69,28 +66,27 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "1b27e663-3d7f-4785-86ea-cb02da4055f1"
+      "id": "454b3b60-e7eb-4498-ab6a-01868ab8b3fd"
     },
     {
       "command": "EVENT_TEXT_SET_SOUND_EFFECT",
       "args": {
         "type": "tone",
         "pitch": 4,
-        "frequency": 250,
+        "frequency": 140,
         "duration": 0.05,
-        "effect": 0,
-        "__collapse": false
+        "effect": 0
       },
-      "id": "165b3e76-4528-414b-8681-34d2af29976f"
+      "id": "fcf8569d-29f0-4609-89de-22bae173c39d"
     },
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          " manage what?"
+          " what are we\n waiting for\n then"
         ],
         "__section": "text",
-        "avatarId": "935bdf0a-f04c-422c-b744-26805c80ebed",
+        "avatarId": "2a8cd350-b098-449d-acd7-7df27b6def69",
         "minHeight": 4,
         "maxHeight": 7,
         "textX": 1,
@@ -106,54 +102,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "5d0792e3-f66f-4d5c-9a50-42f9ade4be10"
-    },
-    {
-      "command": "EVENT_ACTOR_MOVE_RELATIVE",
-      "args": {
-        "actorId": "b7bbea96-9ed0-4746-82d4-c7ce7ef8482a",
-        "x": {
-          "type": "number",
-          "value": 0
-        },
-        "y": {
-          "type": "number",
-          "value": 4
-        },
-        "moveType": "vertical",
-        "useCollisions": false,
-        "units": "pixels"
-      },
-      "id": "ad3af38f-8397-4185-8c97-adb798899bf5"
-    },
-    {
-      "command": "EVENT_ACTOR_MOVE_RELATIVE",
-      "args": {
-        "actorId": "b7bbea96-9ed0-4746-82d4-c7ce7ef8482a",
-        "x": {
-          "type": "number",
-          "value": 0
-        },
-        "y": {
-          "type": "number",
-          "value": -4
-        },
-        "moveType": "vertical",
-        "useCollisions": false,
-        "units": "pixels"
-      },
-      "id": "561c7198-280f-4b0b-be97-dc74230f819d"
-    },
-    {
-      "command": "EVENT_ACTOR_SET_FRAME",
-      "args": {
-        "actorId": "b7bbea96-9ed0-4746-82d4-c7ce7ef8482a",
-        "frame": {
-          "type": "number",
-          "value": 1
-        }
-      },
-      "id": "1682d659-6f51-41fa-be6b-5b2f028bc6a1"
+      "id": "b10a0274-8dbb-4a1b-98d7-24fc6f2e121e"
     },
     {
       "command": "EVENT_TEXT_SET_SOUND_EFFECT",
@@ -162,16 +111,17 @@
         "pitch": 4,
         "frequency": 140,
         "duration": 0.05,
-        "effect": 0,
-        "__collapse": false
+        "effect": 0
       },
-      "id": "a28e1518-18f7-4dd9-bcff-9084ce250a2e"
+      "id": "5d9d40de-6789-44e3-a404-bf538093ea57"
     },
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          " to get here\n in time..."
+          " HEY WAIT FOR ME",
+          " don't leave me\n hanging here",
+          " *in this creepy\n hallway*"
         ],
         "__section": "text",
         "avatarId": "fdedb5d0-04b5-4b02-a0ea-580b7452df3b",
@@ -188,19 +138,14 @@
         "closeWhen": "key",
         "closeButton": "a",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30,
-        "actorId": "b7bbea96-9ed0-4746-82d4-c7ce7ef8482a",
-        "frame": {
-          "type": "number",
-          "value": 0
-        }
+        "closeDelayFrames": 30
       },
-      "id": "572de3e2-bdda-431f-9635-fb37e7f255da"
+      "id": "fcfd7816-b93d-477c-b31d-67529d1cfa73"
     },
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "de5a48d8-33d8-461e-b43f-c0f81ab52264",
+        "sceneId": "b0c8201a-4945-40ef-8197-ccecbcecf75b",
         "x": {
           "type": "number",
           "value": 0
@@ -212,7 +157,7 @@
         "direction": "",
         "fadeSpeed": "2"
       },
-      "id": "ee983dcf-d7c0-425a-b5a1-6243a3c072c5"
+      "id": "de894418-f1b5-481e-bd85-1ea3b20ea32c"
     }
   ],
   "playerHit1Script": [],

@@ -27,6 +27,37 @@
       "symbol": "var_a_ticks"
     },
     {
+      "id": "250",
+      "name": "NO_SET",
+      "symbol": "var_no_set"
+    },
+    {
+      "id": "508",
+      "name": "search-classroom",
+      "symbol": "var_search_classroom",
+      "flags": {
+        "flag1": "gradecard",
+        "flag2": "sheet",
+        "flag3": "closet",
+        "flag4": "student-desk"
+      }
+    },
+    {
+      "id": "509",
+      "name": "skip-sink",
+      "symbol": "var_skip_sink"
+    },
+    {
+      "id": "510",
+      "name": "skip-search",
+      "symbol": "var_skip_search"
+    },
+    {
+      "id": "511",
+      "name": "no chicken",
+      "symbol": "var_no_chicken"
+    },
+    {
       "id": "adbf4e7d-2a62-480f-b4d2-0b1759fe416a__L0",
       "name": "Local 0",
       "symbol": "var_local_0"
@@ -62,40 +93,9 @@
       "symbol": "var_local_6"
     },
     {
-      "id": "511",
-      "name": "no chicken",
-      "symbol": "var_no_chicken"
-    },
-    {
-      "id": "508",
-      "name": "search-classroom",
-      "symbol": "var_search_classroom",
-      "flags": {
-        "flag1": "gradecard",
-        "flag2": "sheet",
-        "flag3": "closet",
-        "flag4": "student-desk"
-      }
-    },
-    {
-      "id": "250",
-      "name": "NO_SET",
-      "symbol": "var_no_set"
-    },
-    {
       "id": "4bd5999b-8774-492f-9e4b-8233dea71b1d__L1",
       "name": "Local 1",
       "symbol": "var_local_7"
-    },
-    {
-      "id": "510",
-      "name": "skip-search",
-      "symbol": "var_skip_search"
-    },
-    {
-      "id": "509",
-      "name": "skip-sink",
-      "symbol": "var_skip_sink"
     }
   ]
 }

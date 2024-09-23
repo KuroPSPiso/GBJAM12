@@ -32,6 +32,18 @@
       "id": "8657b9e5-e80b-4d65-adaa-b0ab9cc9528e"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 220,
+        "duration": 0.05,
+        "effect": 0,
+        "__collapse": false
+      },
+      "id": "85a40978-93a4-4418-b5a9-0eed2014781e"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -56,6 +68,18 @@
         "closeDelayFrames": 30
       },
       "id": "9e8b1e2a-09c1-4a89-8d5d-5da2b702e36e"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 140,
+        "duration": 0.05,
+        "effect": 0,
+        "__collapse": false
+      },
+      "id": "3bf2c3a4-17b6-4913-8710-ebb9cd8ef0e0"
     },
     {
       "command": "EVENT_TEXT",
@@ -85,6 +109,18 @@
         "closeDelayFrames": 30
       },
       "id": "510b9684-67b7-47cd-9cee-3238339f0674"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 250,
+        "duration": 0.05,
+        "effect": 0,
+        "__collapse": false
+      },
+      "id": "f6cc6e50-7264-4fe6-9661-9469a6f6448a"
     },
     {
       "command": "EVENT_TEXT",
@@ -139,6 +175,18 @@
       "id": "bf8b9060-2e10-4efb-bce2-0d8c72a9cf92"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 140,
+        "duration": 0.05,
+        "effect": 0,
+        "__collapse": false
+      },
+      "id": "1d6ec09b-fa29-413f-bf35-832f7fd9be85"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -163,6 +211,18 @@
         "closeDelayFrames": 30
       },
       "id": "0fa24f89-92e8-4acd-bba5-ef2ab7914e34"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 220,
+        "duration": 0.05,
+        "effect": 0,
+        "__collapse": false
+      },
+      "id": "6436ab54-73b1-4a69-b18f-1055d1f194b7"
     },
     {
       "command": "EVENT_TEXT",
@@ -190,6 +250,18 @@
       "id": "af916c53-e66f-4d5e-beb6-b97f9bec1028"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 250,
+        "duration": 0.05,
+        "effect": 0,
+        "__collapse": false
+      },
+      "id": "0fa16614-4796-4fda-95b7-0830df5d5a43"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -215,6 +287,18 @@
         "closeDelayFrames": 30
       },
       "id": "26110989-a18c-4cfe-8885-f9421be1141a"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 140,
+        "duration": 0.05,
+        "effect": 0,
+        "__collapse": false
+      },
+      "id": "9f904b59-a8b7-494a-b2f7-519f417ab86f"
     },
     {
       "command": "EVENT_TEXT",
@@ -278,6 +362,18 @@
       "id": "764dcc34-e645-407d-8ca6-3d44a20d8278"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 220,
+        "duration": 0.05,
+        "effect": 0,
+        "__collapse": false
+      },
+      "id": "74bb8399-4b25-4287-82eb-d9783ed16d52"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -302,6 +398,18 @@
         "closeDelayFrames": 30
       },
       "id": "1c6c8d93-0e2f-4b75-bd63-22531422f007"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 140,
+        "duration": 0.05,
+        "effect": 0,
+        "__collapse": false
+      },
+      "id": "31a6c56e-255d-4527-8682-da099ec20c84"
     },
     {
       "command": "EVENT_TEXT",
@@ -330,6 +438,18 @@
       "id": "e6f51113-a405-4fd0-b2aa-721d0ee98595"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 250,
+        "duration": 0.05,
+        "effect": 0,
+        "__collapse": false
+      },
+      "id": "cc2db429-2c1a-4c8c-bbf3-d99772f0c955"
+    },
+    {
       "command": "EVENT_CHOICE",
       "args": {
         "variable": "511",
@@ -337,6 +457,18 @@
         "falseText": "Stay home tonight"
       },
       "id": "10224d4b-1aaa-4736-9f3e-973d50097e93"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 250,
+        "duration": 0.05,
+        "effect": 0,
+        "__collapse": false
+      },
+      "id": "fb392edb-6195-41ce-a868-861b4a08932a"
     },
     {
       "command": "EVENT_IF",
@@ -430,6 +562,18 @@
         ]
       },
       "id": "a5575c1e-e363-432b-8c35-fafb2f3ec0e3"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 140,
+        "duration": 0.05,
+        "effect": 0,
+        "__collapse": false
+      },
+      "id": "a521210d-cc3c-4e89-ba69-889f3806c1a2"
     },
     {
       "command": "EVENT_TEXT",

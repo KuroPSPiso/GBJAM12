@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "1a031afd-4d3d-4ade-8ff6-94ecad0290e5",
+  "name": "sphere",
+  "symbol": "bg_sphere",
+  "width": 62,
+  "height": 62,
+  "imageWidth": 500,
+  "imageHeight": 500,
+  "filename": "sphere.png",
+  "tileColors": ""
+}

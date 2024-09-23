@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "7b850cf0-c812-4523-a29e-30c9b47eca0c",
+  "name": "breath.wav",
+  "symbol": "sound_breath_wav",
+  "filename": "breath.wav",
+  "type": "wav"
+}

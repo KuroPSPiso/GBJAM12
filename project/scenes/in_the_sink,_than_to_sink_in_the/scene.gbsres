@@ -13,8 +13,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_27",
-  "x": 576,
-  "y": 1184,
+  "x": 768,
+  "y": 1208,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -150,6 +150,18 @@
       "id": "29610665-023a-4443-b04f-81f777463613"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 100,
+        "duration": 0.05,
+        "effect": 0,
+        "__collapse": false
+      },
+      "id": "130976e6-9f05-4892-ad03-0262d65846c9"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -177,6 +189,18 @@
       "id": "c102a5da-0c62-40ef-b777-3d10016fc918"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 140,
+        "duration": 0.05,
+        "effect": 0,
+        "__collapse": false
+      },
+      "id": "db9e3e4a-e177-4445-8aed-2a118288f014"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -200,6 +224,18 @@
         "closeDelayFrames": 30
       },
       "id": "7b8cfc9e-963d-49f9-b587-0265491f0c75"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 250,
+        "duration": 0.05,
+        "effect": 0,
+        "__collapse": false
+      },
+      "id": "1da50024-502b-41f7-98e1-b0313cc9c847"
     },
     {
       "command": "EVENT_TEXT",
@@ -326,36 +362,9 @@
       "children": {
         "true0": [
           {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                " FOUND YOU!",
-                " COME OVER HERE!"
-              ],
-              "__section": "text",
-              "avatarId": "6e9aa742-46b3-4b4f-b22e-12f8387ed859",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30,
-              "__collapse": true
-            },
-            "id": "1cbfb40c-302a-4eb4-85e0-c4f32a68a1de"
-          },
-          {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "4bd5999b-8774-492f-9e4b-8233dea71b1d",
+              "sceneId": "305dcb15-9a4e-4e42-a3a5-ca1432a10d7b",
               "x": {
                 "type": "number",
                 "value": 0
@@ -437,6 +446,18 @@
       "id": "a887fb0a-6695-4c4e-9e49-108cad9a69ff"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 140,
+        "duration": 0.05,
+        "effect": 0,
+        "__collapse": false
+      },
+      "id": "c11e6361-56d5-4d3a-ba02-393adf3d2a84"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -463,6 +484,18 @@
         "closeDelayFrames": 30
       },
       "id": "85b194b7-7f37-40d2-8096-c537e8eed372"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 250,
+        "duration": 0.05,
+        "effect": 0,
+        "__collapse": false
+      },
+      "id": "8706c5a3-ba51-4547-b1b1-ec42f590aa41"
     },
     {
       "command": "EVENT_TEXT",

@@ -1,0 +1,137 @@
+{
+  "_resourceType": "scene",
+  "id": "dc688aef-6fc6-4ef8-9150-11bd357b4ad7",
+  "_index": 30,
+  "name": "class room entrance",
+  "backgroundId": "248a4ebc-3c9b-4ce5-b95a-3e76a08470e9",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_31",
+  "x": 392,
+  "y": 1208,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "f76d6d9b-cf4c-4cbf-ac81-2c0684a5db84"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1,
+        "frames": 30
+      },
+      "id": "e5ce9ad4-be16-4a72-aac2-0f91eba29f69"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "510"
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " ok where shall\n we start?"
+              ],
+              "__section": "text",
+              "avatarId": "2a8cd350-b098-449d-acd7-7df27b6def69",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "5072e540-eb66-42a5-b6fd-fecb29671c9e"
+          },
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 140,
+              "duration": 0.05,
+              "effect": 0,
+              "__collapse": false
+            },
+            "id": "96e9d380-a3cb-463d-b1ac-6665ba26a7d2"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " I mean we could\n look everywhere"
+              ],
+              "__section": "text",
+              "avatarId": "fdedb5d0-04b5-4b02-a0ea-580b7452df3b",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "b9e41a3e-64ec-4b8e-9572-79ac079432fe"
+          }
+        ],
+        "false": []
+      },
+      "id": "f5e46449-2f3f-4d68-9fce-fbf28090c01a"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "9dd8d185-5e70-4824-9a39-421d7882fb02",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "2f83a9ce-6594-48fe-951e-f75310a51d3a"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

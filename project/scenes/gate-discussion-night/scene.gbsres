@@ -109,6 +109,18 @@
       "id": "4c3e6947-10a0-4d09-af62-35b8416afc6e"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 140,
+        "duration": 0.05,
+        "effect": 0,
+        "__collapse": false
+      },
+      "id": "52416ff8-2e0b-4b8e-975a-3af03d2345da"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -134,6 +146,18 @@
         "closeDelayFrames": 30
       },
       "id": "ae164557-c070-400f-b434-f68016c05170"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 250,
+        "duration": 0.05,
+        "effect": 0,
+        "__collapse": false
+      },
+      "id": "4ebfc555-e527-4bfd-a56a-31b68017a623"
     },
     {
       "command": "EVENT_TEXT",
@@ -162,6 +186,18 @@
       "id": "1830e107-5f5c-408f-8351-b7649849d185"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 140,
+        "duration": 0.05,
+        "effect": 0,
+        "__collapse": false
+      },
+      "id": "377d9e8f-244c-4a20-9b26-e8fb9c1e49c9"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -187,6 +223,18 @@
         "closeDelayFrames": 30
       },
       "id": "28035ca5-2f7a-4d1e-b0c1-a5ea2587a4a3"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 250,
+        "duration": 0.05,
+        "effect": 0,
+        "__collapse": false
+      },
+      "id": "855c12d8-2e4b-4998-ad67-0557597cfcd1"
     },
     {
       "command": "EVENT_TEXT",
@@ -231,7 +279,7 @@
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "9dd8d185-5e70-4824-9a39-421d7882fb02",
+        "sceneId": "dc688aef-6fc6-4ef8-9150-11bd357b4ad7",
         "x": {
           "type": "number",
           "value": 0

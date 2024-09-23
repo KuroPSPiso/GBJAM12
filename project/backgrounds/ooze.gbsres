@@ -8,5 +8,6 @@
   "imageWidth": 160,
   "imageHeight": 208,
   "filename": "ooze.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

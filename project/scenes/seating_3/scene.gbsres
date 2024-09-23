@@ -63,6 +63,18 @@
       "id": "539b0236-4077-4ed1-b304-dafd643c0b68"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 1,
+        "frequency": 220,
+        "duration": 0.05,
+        "effect": 0,
+        "__collapse": false
+      },
+      "id": "e160fbb4-555b-4d60-9fb1-c3d74f5017ab"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -88,6 +100,18 @@
         "closeDelayFrames": 30
       },
       "id": "ffec6ac9-8406-4812-abb2-c0765e2f7372"
+    },
+    {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 250,
+        "duration": 0.05,
+        "effect": 0,
+        "__collapse": false
+      },
+      "id": "b7c97e6f-e6bb-4021-8a1b-ff05ffaf6f23"
     },
     {
       "command": "EVENT_TEXT",

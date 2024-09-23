@@ -1,9 +1,9 @@
 {
   "_resourceType": "scene",
-  "id": "981028a9-3fd4-421b-8c5a-019881ac9d95",
-  "_index": 22,
-  "name": "gate-discussion-day",
-  "backgroundId": "245d8638-2adb-4a63-9855-d0f3c9c5657b",
+  "id": "b0c8201a-4945-40ef-8197-ccecbcecf75b",
+  "_index": 32,
+  "name": "Hallwaydown",
+  "backgroundId": "3617b5c4-49b5-4531-adea-e48f36ec5507",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -12,16 +12,16 @@
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
-  "symbol": "scene_23",
-  "x": 1128,
-  "y": 944,
+  "symbol": "scene_33",
+  "x": 600,
+  "y": 1528,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
         "actorId": "$self$"
       },
-      "id": "9baf4a3b-6de5-446a-9020-7dc730ea5bd6"
+      "id": "a8dc3600-cc7e-4cde-972b-2dde923d88f3"
     },
     {
       "command": "EVENT_WAIT",
@@ -29,45 +29,7 @@
         "time": 1,
         "frames": 30
       },
-      "id": "866e00d1-1acb-4018-ac65-1ed968f2f713"
-    },
-    {
-      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
-      "args": {
-        "type": "tone",
-        "pitch": 4,
-        "frequency": 140,
-        "duration": 0.05,
-        "effect": 0,
-        "__collapse": false
-      },
-      "id": "4f6ac2d8-e16d-4a58-b416-8fd44586de7f"
-    },
-    {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          " hey Eep",
-          " let's meet up\n here later"
-        ],
-        "__section": "text",
-        "avatarId": "fdedb5d0-04b5-4b02-a0ea-580b7452df3b",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
-      },
-      "id": "bfdf12be-1011-471d-b4de-c4b9d4fa8ee4"
+      "id": "257763a8-342a-40dc-a649-ebbf5422bcf9"
     },
     {
       "command": "EVENT_TEXT_SET_SOUND_EFFECT",
@@ -76,17 +38,15 @@
         "pitch": 4,
         "frequency": 250,
         "duration": 0.05,
-        "effect": 0,
-        "__collapse": false
+        "effect": 0
       },
-      "id": "9124bd44-ab65-49b6-924b-3121805a147b"
+      "id": "09a7e8b7-b9af-4c0e-a0de-94a730230642"
     },
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          " alright...",
-          " See you later"
+          " hey look"
         ],
         "__section": "text",
         "avatarId": "935bdf0a-f04c-422c-b744-26805c80ebed",
@@ -105,24 +65,44 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "a41628db-12a9-49dd-8edd-144ca1c68c41"
+      "id": "b70b9e7f-a153-4658-8202-dfff3cade00a"
     },
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
       "args": {
-        "sceneId": "cb0f5ed6-0939-4308-a2f7-46bdc912e00b",
-        "x": {
-          "type": "number",
-          "value": 0
-        },
-        "y": {
-          "type": "number",
-          "value": 0
-        },
-        "direction": "",
-        "fadeSpeed": "2"
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 140,
+        "duration": 0.05,
+        "effect": 0
       },
-      "id": "947e5213-052b-43d6-8923-6a375f3bc17b"
+      "id": "5cac2c28-717f-464e-b776-3a463b827af9"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " it looks like a\n trail going\n down",
+          " seems to be\n going to the\n nearest toilet"
+        ],
+        "__section": "text",
+        "avatarId": "fdedb5d0-04b5-4b02-a0ea-580b7452df3b",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "b19446dc-6fd4-4854-ade1-321beb7c80b2"
     }
   ],
   "playerHit1Script": [],
